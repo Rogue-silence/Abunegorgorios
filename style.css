@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #2d1697;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+
+  #home {
+    background-color: #f4f4f4;
+  }
+  
+
+  #contact input,
+  #contact textarea,
+  #contact button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #contact button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  @media (max-width: 768px) {
+    nav {
+      text-align: center;
+    }
+  
+    nav ul {
+      padding-top: 10px;
+      display: block;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  .img1 {
+    border-radius: 50%; 
+  }
+  .homepage-nav {
+    background-color: #1ab93c; /* Background color for the navigation bar */
+    box-shadow: 0px 2px 5px rgba(252, 252, 252, 0.1); /* Shadow effect */
+     /* Fixed positioning to stay at the top */
+    width: 100%; /* Full width */
+    z-index: 999; /* Ensures the navigation bar is on top of other content */
+  }
+  
+  .homepage-nav .container {
+    display: flex;
+    justify-content: flex-end; /* Align links to the right */
+  }
+  
+  .homepage-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .homepage-nav ul li {
+    display: inline-block;
+    margin-left: 20px; /* Adjust spacing between links */
+  }
+  
+  .homepage-nav ul li a {
+    color: #7ac9f7; /* Link color */
+    font-size: 16px; /* Font size */
+    text-decoration: none;
+    padding: 10px 15px; /* Padding around links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .homepage-nav ul li a:hover {
+    background-color: #e01313; /* Background color on hover */
+  }
+  
+  .homepage-nav ul li a.active {
+    font-weight: bold; /* Highlight active link */
+  }
